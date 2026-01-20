@@ -1,0 +1,25 @@
+.hero-container-outer
+{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-container-inner
+{
+    position: absolute;
+}
+
+.hero-image-text
+{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.hero-image
+{
+
+}
