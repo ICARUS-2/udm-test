@@ -8,7 +8,7 @@
 
 .hero-container-inner
 {
-    position: absolute;
+    position: relative;
 }
 
 .hero-image-text
@@ -19,6 +19,11 @@
     padding-top: 200px;
 }
 
+.hero-image 
+{
+    width: 100%;
+}
+
 .buttons-container
 {
     display: flex;
@@ -26,11 +31,27 @@
     width: 25%;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1200px)
 {
     .buttons-container
     {
         flex-direction: column;
         width: 100%;
+    }
+
+    .hero-container-outer
+    {
+        height: 300px;
+    }
+
+    .hero-image-text
+    {
+        padding-top: 100px;
+    }
+
+    .landing-page-button
+    {
+        width: 200px;
+        margin: 10px;
     }
 }

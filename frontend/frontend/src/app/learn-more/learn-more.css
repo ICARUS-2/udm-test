@@ -1,0 +1,11 @@
+.screenshots-section 
+{
+    display: flex;
+    flex-direction: space-between;
+}
+
+.screenshot-image
+{
+    max-width: 400px;
+    margin: 20px;
+}
