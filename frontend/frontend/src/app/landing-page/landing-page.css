@@ -19,7 +19,18 @@
     padding-top: 200px;
 }
 
-.hero-image
+.buttons-container
 {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
 
+@media screen and (max-width: 800px)
+{
+    .buttons-container
+    {
+        flex-direction: column;
+        width: 100%;
+    }
 }
